@@ -1,65 +1,38 @@
-# 📊 Prototype de Catalogue de Données Publiques
+📊 Catalogue National de Données Publiques (Prototype)
+🎯 Contexte
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+Dans le cadre de la transformation numérique et de la valorisation des données publiques, ce projet propose un prototype de catalogue de données inspiré des besoins des administrations publiques.
 
-## 🎯 Objectif
+L’objectif est de faciliter la structuration, la découverte et l’exploitation des données pour la prise de décision.
 
-Ce projet propose un prototype de **catalogue de données publiques** visant à structurer, référencer et faciliter l’exploration de données issues de différentes structures administratives.
+🚀 Fonctionnalités
+Consultation de plusieurs datasets (santé, éducation, transport)
+Navigation via une interface intuitive
+Filtres dynamiques (ville, type)
+Affichage des données en temps réel
+Indicateurs clés (nombre d’enregistrements, colonnes)
+🛠 Technologies utilisées
+Python
+Pandas
+Streamlit
+🧠 Approche
 
-L’objectif est de répondre aux enjeux de :
-- gouvernance des données
-- réduction des silos informationnels
-- amélioration de l’accès à l’information pour les décideurs et les développeurs
+Le projet s’inscrit dans une logique de :
 
----
+Gouvernance des données
+Standardisation et structuration
+Accessibilité des données
+Support à la prise de décision
+📈 Résultat
 
-## 🧠 Contexte
+Ce prototype démontre la capacité à :
 
-Dans de nombreuses administrations, les données sont dispersées, hétérogènes et difficilement exploitables.
-
-Ce prototype s’inscrit dans une logique de modernisation des systèmes d’information en permettant :
-- une meilleure visibilité des données disponibles
-- une standardisation des métadonnées
-- une base pour le développement de plateformes Open Data
-
----
-
-## ⚙️ Fonctionnalités
-
-- 🔍 Scan automatique de fichiers de données (.csv, .xlsx)
-- 🧾 Génération d’un catalogue structuré au format JSON
-- 📊 Interface interactive de visualisation des datasets
-- 🔎 Recherche et filtrage des données
-- 🏷️ Ajout de métadonnées (source, description, type de données)
-
----
-
-## 🧱 Architecture du projet
-
-data-catalog-prototype/
-│
-├── data/
-│ └── sample_datasets/
-├── app.py
-├── catalog.json
-├── requirements.txt
-└── README.md
-
----
-
-## 🛠️ Technologies utilisées
-
-- Python
-- Streamlit
-- JSON
-
----
-
-## ▶️ Lancer le projet
-
-### 1. Cloner le repository
-
-```bash
-git clone https://github.com/ton-username/data-catalog-prototype.git
-cd data-catalog-prototype
+Organiser des données hétérogènes
+Créer un catalogue structuré
+Développer une interface de consultation
+Faciliter l’exploitation des données publiques
+📌 Perspectives d’amélioration
+Intégration d’une API
+Ajout de nouveaux datasets
+Gestion des métadonnées avancées
+Déploiement cloud

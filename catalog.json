@@ -1,0 +1,25 @@
+{
+  "datasets": [
+    {
+      "name": "sante",
+      "title": "Centres de santé",
+      "description": "Liste des centres de santé au Bénin",
+      "file": "sante.csv",
+      "source": "Simulation - Données publiques Bénin"
+    },
+    {
+      "name": "education",
+      "title": "Établissements scolaires",
+      "description": "Liste des établissements scolaires",
+      "file": "education.csv",
+      "source": "Simulation - Données publiques Bénin"
+    },
+    {
+      "name": "transport",
+      "title": "Infrastructures de transport",
+      "description": "Liste des infrastructures de transport",
+      "file": "transport.csv",
+      "source": "Simulation - Données publiques Bénin"
+    }
+  ]
+}
